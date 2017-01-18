@@ -178,3 +178,53 @@ a.light-active:active,
 a.light-active:focus{
   color: white !important;
 }
+
+
+
+
+/*
+nav.scrolled div.nav-bar div.module-group div.module ul.menu li.nav-cta a{
+color: rgba(255, 255, 255, 1) !important;
+}*/
+nav.scrolled div.nav-bar div.module-group div.module ul.menu li.nav-cta a{
+color: rgba(0,0,0, 1) !important;
+border: 2px solid rgba(71,180,117, 1) !important;
+}
+nav.scrolled div.nav-bar div.module-group div.module ul.menu li.nav-cta a:hover{
+color: white !important;
+background-color: rgba(71,180,117, 1);
+}
+
+a.xs-block.left{
+  margin-left:15px;
+}
+a.xs-block.right{
+  margin-right:15px; 
+}
+.underline-link{
+  text-decoration: underline !important;
+}
+@media (min-width: 767px) {
+  a.h5{
+    font-size: 1.3em !important;
+  }
+}
+@media (max-width: 460px){
+  a.xs-block{
+    display: block;
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
+  }
+}
+@media (max-width: 460px){
+  a.xs-block{
+    display: block;
+  }
+  a.xs-block.left{
+    margin-left: 0px;
+  }
+  a.xs-block.right{
+    margin-right: 0px;
+  }
+}
+
