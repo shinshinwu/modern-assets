@@ -106,7 +106,7 @@
  .f-img-w{
   width: 30%;
   float: right;
-} 
+}
 }
 @media (min-width: 767px) and (max-width: 996px){
 .acct-text{
@@ -199,7 +199,7 @@ a.xs-block.left{
   margin-left:15px;
 }
 a.xs-block.right{
-  margin-right:15px; 
+  margin-right:15px;
 }
 .underline-link{
   text-decoration: underline !important;
@@ -228,3 +228,6 @@ a.xs-block.right{
   }
 }
 
+h6 .thin {
+  font-weight: 400 !important;
+}
